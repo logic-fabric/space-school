@@ -11,7 +11,7 @@
     />
     <meta name="robots" content="nofollow" />
 
-    <!-- Bootstrap 4: -->
+    <!-- Bootstrap 5 CSS: -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,13 +21,42 @@
   </head>
 
   <body>
-    <div class="container text-center">
-      <header class="row text-light bg-dark bg-gradient">
-        <section class="col-12">
-          <p>--- HEADER ---</p>
-        </section>
-      </header>
+    <div class="bg-dark bg-gradient">
+      <header class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand" href="index.html" lang="en">Space School</a>
 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="mainNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="index.html"
+                  aria-current="page"
+                >
+                  Accueil
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Leçons</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container text-center">
       <main>
         <section class="row text-white bg-primary bg-gradient">
           <div class="col-12">
@@ -37,15 +66,9 @@
         </section>
 
         <section class="row bg-light bg-gradient">
-          <article class="col-12 col-md-4">
-            --- INFO CARD 1 ---
-          </article>
-          <article class="col-12 col-md-4">
-            --- INFO CARD 2 ---
-          </article>
-          <article class="col-12 col-md-4">
-            --- INFO CARD 3 ---
-          </article>
+          <article class="col-12 col-md-4">--- INFO CARD 1 ---</article>
+          <article class="col-12 col-md-4">--- INFO CARD 2 ---</article>
+          <article class="col-12 col-md-4">--- INFO CARD 3 ---</article>
         </section>
       </main>
 
@@ -54,4 +77,11 @@
       </footer>
     </div>
   </body>
+
+  <!-- Bootstrap 5 JS: -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+  ></script>
 </html>
