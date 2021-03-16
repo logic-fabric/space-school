@@ -1,2 +1,3 @@
-# space-school
-A prototype realized with Bootstrap 4 - March 2021
+# Space School - Mars 2021
+
+Prototypage de Front-end réalisé avec [Bootsrap 4](https://getbootstrap.com/).
