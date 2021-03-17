@@ -1,0 +1,22 @@
+/* Custom CSS for Space School, a prototype built with Bootstrap 5 */
+
+/* ==========
+   COMPONENTS
+   ========== */
+
+/* -----
+   Cards
+   ----- */
+.card-body img {
+  max-width: 4rem;
+  margin: 0 auto 0.5rem auto;
+
+  filter: grayscale(0.9);
+}
+
+@media (min-width: 768px) {
+  .card-body img {
+    max-width: 8rem;
+    margin: 0 auto 1rem auto;
+  }
+}
