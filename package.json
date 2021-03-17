@@ -1,0 +1,25 @@
+{
+  "name": "space-school",
+  "version": "1.0.0",
+  "description": "A web front prototype build with Gulp-EJS and Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node ./node_modules/gulp/bin/gulp.js watch",
+    "buildTemplates": "node ./node_modules/gulp/bin/gulp.js buildTemplates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logic-fabric/space-school.git"
+  },
+  "author": "Lowic Mangin, for logic fabric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logic-fabric/space-school/issues"
+  },
+  "homepage": "https://github.com/logic-fabric/space-school#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
