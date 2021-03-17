@@ -1,5 +1,9 @@
 /* Custom CSS for Space School, a prototype built with Bootstrap 5 */
 
+main {
+  min-height: 90vh;
+}
+
 /* ==========
    COMPONENTS
    ========== */
@@ -23,4 +27,20 @@
   position: absolute;
   bottom: 2rem;
   left: 2rem;
+}
+
+/* =====
+   PAGES
+   ===== */
+
+/* -----------
+   Module page
+   ----------- */
+
+.p-module-img {
+  overflow: hidden;
+}
+
+.p-module-img img {
+  object-fit: cover;
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <%- include('parts/head', {title: "Space School | Module 1"}) %>
+
+  <body>
+    <%- include('parts/layout/header.ejs', {home: false}) %>
+
+    <main class="container">
+      <section class="row py-4 bg-light bg-gradient">
+        <div class="col-12 col-md-4 p-module-img">
+          <img
+            class="w-100 my-2"
+            src="img/lessons/combinaisons-spatiales.jpg"
+            alt="TODO: add an alt text"
+          />
+        </div>
+
+        <div class="col-12 col-md-8 px-4">
+          <h1 class="my-2">S'habiller pour l'espace</h1>
+
+          <h2 class="text-muted">Aperçu</h2>
+
+          <p>
+            Les voyageurs de l'espace ont une garde-robe assurément limitée.
+            Pourtant, enfiler une combinaison spatiale n'est pas une partie de
+            plaisir.
+          </p>
+
+          <p>Dans ce module, vous apprendrez :</p>
+
+          <ul>
+            <li>l'anatomie complète d'une combinaison</li>
+            <li>
+              toutes les couches que vous devrez revêtir pour être prêt à
+              affronter le vide
+            </li>
+            <li>l'ordre dans lequel enfiler les différents composants</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <%- include('parts/layout/footer.ejs') %>
+
+    <!-- Bootstrap 5 JS: -->
+    <%- include('parts/bootstrap-js') %>
+  </body>
+</html>

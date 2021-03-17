@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-  <%- include('parts/head', {title: "Space School | Leçons"}) %>
+  <%- include('parts/head.ejs', {title: "Space School | Leçons"}) %>
 
   <body>
-    <%- include('parts/layout/header.ejs') %>
+    <%- include('parts/layout/header.ejs', {home: false}) %>
 
     <main class="container">
       <section class="row py-4 bg-light bg-gradient">
@@ -13,7 +13,7 @@
         <!-- Lesson card 1 -->
         <%- include('parts/components/card-lesson.ejs', {cardImg:
           "img/lessons/combinaisons-spatiales.jpg", cardTitle: "S'habiller pour l'espace", cardText:
-          "L'indispensable garde-robe du voyageur spatial.", numero: 1, disabled: true}) %>
+          "L'indispensable garde-robe du voyageur spatial.", numero: 1, disabled: false}) %>
           
          <!-- Lesson card 2 -->
          <%- include('parts/components/card-lesson.ejs', {cardImg:

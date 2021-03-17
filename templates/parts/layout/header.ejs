@@ -24,7 +24,7 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link active"
+              class="nav-link <% if (home) { %>active<% } %>"
               href="index.html"
               aria-current="page"
             >
@@ -33,7 +33,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="lessons.html">Leçons</a>
+            <a
+            class="nav-link <% if (!home) { %>active<% } %>"
+              href="lessons.html"
+              >Leçons</a
+            >
           </li>
         </ul>
       </div>
