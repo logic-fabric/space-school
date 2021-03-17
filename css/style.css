@@ -7,14 +7,20 @@
 /* -----
    Cards
    ----- */
-.card-body img {
+.card--home img {
   max-width: 4rem;
 
   filter: grayscale(0.9);
 }
 
 @media (min-width: 768px) {
-  .card-body img {
+  .card--home img {
     max-width: 8rem;
   }
+}
+
+.card--lesson a {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
 }
