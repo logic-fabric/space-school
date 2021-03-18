@@ -29,6 +29,24 @@ main {
   left: 2rem;
 }
 
+/* --------
+   Carousel
+   -------- */
+
+.carousel {
+  height: 100%;
+}
+
+.carousel button {
+  top: 4rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
 /* =====
    PAGES
    ===== */
@@ -40,17 +58,19 @@ main {
 .p-hero-banner {
   position: relative;
 
-  max-height: 30vh;
+  height: 30vh;
   overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .p-hero-banner {
-    max-height: 45vh;
+    height: 50vh;
   }
 }
 
 .p-hero-banner img {
+  height: 100%;
+
   object-fit: cover;
 }
 
