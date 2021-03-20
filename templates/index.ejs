@@ -6,8 +6,8 @@
   <body>
     <%- include('parts/layout/header.ejs', {home: true}) %>
 
-    <main class="container">
-      <section class="row p-hero-banner text-white bg-light">
+    <main class="container bg-light">
+      <section class="row p-hero-banner text-white">
         <div
           class="col-12 carousel slide"
           id="hero-carousel"
@@ -90,7 +90,7 @@
         </h1>
       </section>
 
-      <section class="row py-4 bg-light">
+      <section class="row py-4">
         <!-- Home card 1 -->
         <%-include('parts/components/card-home.ejs', {cardImg:
         "img/pictos/certificat.png", cardTitle: "Faites vos preuves", cardText:
@@ -106,6 +106,15 @@
         <%-include('parts/components/card-home.ejs', {cardImg:
         "img/pictos/recherche-emploi.png", cardTitle: "Atteignez les étoiles",
         cardText: "Faites décollez votre carrière pour un autre univers !"}) %>
+      </section>
+
+      <section class="pt-3 pb-5 text-center">
+        <a
+        class="btn btn-lg btn-warning shadow"
+        href="lessons.html"
+      >
+        Décoller avec nous !
+      </a>
       </section>
     </main>
 

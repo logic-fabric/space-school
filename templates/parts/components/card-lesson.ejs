@@ -1,5 +1,5 @@
 <div class="col-12 col-md-4 my-2">
-  <div class="card card--lesson h-100">
+  <div class="card card--lesson h-100 shadow">
     <article class="card-body">
       <p class="card-header mb-3 p-3 h4 text-white bg-secondary bg-gradient">
         Module <%= numero %>
@@ -14,7 +14,7 @@
 
         <p class="card-text pb-5"><%= cardText %></p>
         <a
-          class="btn <% if (disabled) { %>btn-secondary disabled<% } else { %> btn-warning <% } %>"
+          class="btn <% if (disabled) { %>btn-secondary disabled<% } else { %> btn-warning shadow-sm <% } %>"
           href="module-<%= numero %>.html"
         >
           Commencer
