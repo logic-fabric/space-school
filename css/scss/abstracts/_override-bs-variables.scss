@@ -1,19 +1,35 @@
-$primary:       #278ca2;
-$secondary:     #fd9222;
-$success:       #458e57;
-$info:          $primary;
-$warning:       #d5b613;
-$danger:        #e64b38;
-$light:         #f2efef;
-$dark:          #2a2929;
+/* ------------
+   Brand colors
+   ------------ */
+
+$primary: #278ca2;
+$secondary: #fd9222;
+$success: #458e57;
+$info: $primary;
+$warning: #d5b613;
+$danger: #e64b38;
+$light: #f2efef;
+$dark: #2a2929;
 
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
 );
+
+/* ---------
+   Carousels
+   --------- */
+
+$carousel-control-opacity: 0.6;
+$carousel-control-icon-width: 3rem;
+
+$carousel-indicator-width: 3rem;
+$carousel-indicator-height: 0.375rem;
+$carousel-indicator-spacer: 0.25rem;
+$carousel-indicator-opacity: 0.6;
