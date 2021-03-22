@@ -7,6 +7,16 @@
     <%- include('parts/layout/header.ejs', {home: false}) %>
 
     <main class="container">
+      <nav class="row my-4 bg-light" aria-label="breadcrumb">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="lessons.html">Leçons</a></li>
+          <li class="breadcrumb-item active">
+            Module 1. S'habiller pour l'espace
+          </li>
+        </ol>
+      </nav>
+
       <section class="row py-4 bg-light">
         <div class="col-12 col-md-4 p-module-img">
           <img
