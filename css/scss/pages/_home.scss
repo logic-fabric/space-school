@@ -1,0 +1,44 @@
+/* ------------
+   Heror banner
+   ------------ */
+
+.p-hero-banner {
+  position: relative;
+
+  height: 30vh;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .p-hero-banner {
+    height: 50vh;
+  }
+}
+
+.p-hero-banner img {
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.p-hero-banner h1 {
+  position: absolute;
+
+  padding: 1rem 2rem;
+}
+
+/* -----
+   Cards
+   ----- */
+
+.p-card--home img {
+  max-width: 4rem;
+
+  filter: grayscale(0.9);
+}
+
+@media (min-width: 768px) {
+  .p-card--home img {
+    max-width: 8rem;
+  }
+}

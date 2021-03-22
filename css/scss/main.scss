@@ -4,13 +4,19 @@
 // - the 'abstracts/' folder should not output a single line of CSS if compiled on its own
 
 // 2. Vendors:
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // 3. Base stuff:
+@import "base/tags";
 
 // 4. Layout-related sections:
 
 // 5. Components:;
+@import "components/carousels";
 
 // 6. Pages specific styles:
+@import "pages/home.scss";
+@import "pages/lessons.scss";
+@import "pages/modules.scss";
 
 // 7. Themes:

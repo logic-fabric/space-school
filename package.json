@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/logic-fabric/space-school#readme",
   "devDependencies": {
+    "bootstrap": "^5.0.0-beta2",
     "gulp": "^4.0.2",
     "gulp-ejs": "^5.1.0",
     "gulp-rename": "^2.0.0",
