@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "node ./node_modules/gulp/bin/gulp.js watch",
-    "buildCSS": "node ./node_modules/gulp/bin/gulp.js buildCSS",
-    "buildTemplates": "node ./node_modules/gulp/bin/gulp.js buildTemplates"
+    "buildTemplates": "node ./node_modules/gulp/bin/gulp.js buildTemplates",
+    "buildCSS": "node ./node_modules/gulp/bin/gulp.js buildCSS"
   },
   "repository": {
     "type": "git",

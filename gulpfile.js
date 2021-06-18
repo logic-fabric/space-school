@@ -2,21 +2,14 @@
 
 const gulp = require("gulp");
 
-const sass = require("gulp-sass");
-
 const ejs = require("gulp-ejs");
 const rename = require("gulp-rename");
 
-function watch() {
-  gulp.watch("./css/scss/**/*.scss", buildCSS);
-  gulp.watch("./templates/**/*.ejs", buildTemplates);
-}
+const sass = require("gulp-sass");
 
-function buildCSS() {
-  return gulp
-    .src("./css/scss/main.scss")
-    .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-    .pipe(gulp.dest("./css"));
+function watch() {
+  gulp.watch("./templates/**/*.ejs", buildTemplates);
+  gulp.watch("./css/scss/**/*.scss", buildCSS);
 }
 
 function buildTemplates() {
@@ -27,6 +20,13 @@ function buildTemplates() {
     .pipe(gulp.dest("."));
 }
 
+function buildCSS() {
+  return gulp
+    .src("./css/scss/main.scss")
+    .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
+    .pipe(gulp.dest("./css"));
+}
+
 module.exports.watch = watch;
-module.exports.buildCSS = buildCSS;
 module.exports.buildTemplates = buildTemplates;
+module.exports.buildCSS = buildCSS;
